@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Создание видео</title>
+    <link rel="stylesheet" href="../css/output.css">
+    <link rel="stylesheet" href="../css/createVideo.css">
+</head>
+<body >
+    <header class="mx-auto flex items-center justify-between px-36 pt-5">
+        <div class="logo text-4xl font-bold text-white">equivalent</div>
+        <div class="flex items-center gap-14">
+          <a href="html/createVideo.html"><div><img src="../src/add.svg" alt="" class="h-7 w-7" /></div></a>
+          <a
+            href="html/authentication/authorization.html"
+            class="flex items-center rounded-full bg-blue-500 py-2 px-4 shadow-lg transition duration-150 ease-in-out hover:bg-blue-900 hover:shadow-2xl"
+          >
+            <div class="text-xl text-white">Войти</div>
+            <div><img src="../src/login.svg" alt="" class="w-9" /></div>
+          </a>
+        </div>
+      </header>
+    <div class="w-8/12 bg-white mx-auto relative mt-5 shadow-2xl rounded-lg px-4 pb-6" style="background:-webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(15deg,  #16265a 0%,#211352 100%);">
+    <div class="text-2xl font-medium text-white ml-5 py-3">Загрузка видео</div>
+    <hr class="py-3">
+    <div class="flex">
+        <div class="w-[60%] h-[400px] bg-scroll">
+            <span class="text-2xl font-semibold text-white ml-6">Информация</span> <br><br>
+            <div class="text-field_floating ml-6">
+                <input class="text-field__input" type="text" id="nazv" placeholder=" ">
+                <label class="text-field__label" for="nazv">Название (обязательное поле)</label>
+            </div>
+            <div class="text-field_floating ml-6 mt-4">
+                <input class="text-field__input h-40 p-0 m-0" type="text" id="opis" placeholder=" ">
+                <label class="text-field__label" for="opis">Описание</label>
+            </div>
+        </div>
+        <div class="flex-1 bg-white h-[400px]"></div>
+    </div>
+    </div>
+</body>
+</html>
